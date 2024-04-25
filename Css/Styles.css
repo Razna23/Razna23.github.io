@@ -684,6 +684,7 @@
 .Bike-Details { /* Details About Bikes -Applies to all bikes */
   width: 49%;
   font-size: 40px;
+  font-size: calc(30px + 0.390625vw);
 }
 
 .Bike-1 { /* First Bike */
