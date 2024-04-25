@@ -554,7 +554,6 @@
 
   .First-Image {
     width: 50%;
-    height: fit-content;
     align-self: center;
     margin-right: 7%;
     border-radius: 20px;
@@ -577,7 +576,6 @@
   }
 
   .Second-Image {
-    height: fit-content;
     align-self: center;
     width: 50%;
     border-radius: 20px;
