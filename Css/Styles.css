@@ -494,16 +494,10 @@
     }
   }
 
-  /*@media screen and (min-width: 1200px) and (max-width: 1300px) {
-    .Container {
-      margin-left: 72%;
-    }
-    #Map-Image {
-      width: 37%;
-    }
-  } */
-
   @media screen and (min-width: 1200px) {
+    .Container {
+      margin-left: 1%;
+    }
     #Map-Image {
       width: 36.5% ;
       margin: auto;
