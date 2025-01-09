@@ -351,10 +351,10 @@
 
   #First-Image { /* Intro Image */
     position: relative;
-    margin-left: 10%;
+    margin-left: 6%;
     margin-top: 1%;
     margin-bottom: 1%;
-    width: 80%;
+    width: 88%;
     border-radius: 50px;
     box-shadow: 10px 15px 18px rgba(0, 0, 0, 0.875);
 
