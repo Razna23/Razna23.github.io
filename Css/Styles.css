@@ -377,8 +377,12 @@
     font-size: calc(20px + 0.390625vw);
   }
 
+  .Information-Index {
+    display:inline-flex;
+    width: 100%;
+  }
+
   #Map-Image { /* Google Maps Image */
-    position: relative;
     border-radius: 10px;
     box-shadow: 10px 15px 18px rgba(0, 0, 0, 0.758);
     bottom: 25px;
@@ -390,9 +394,9 @@
 
   table {  /* Opening Hours Table */
     border-collapse: collapse;
-    position:relative;
     border: 3px solid white;
     box-shadow: 10px 15px 18px rgba(0, 0, 0, 0.758);
+    margin-left: 200px;
   }
 
   th {
@@ -415,11 +419,8 @@
   }
 
   .Container { /* Slideshow */
-    position: relative;
-    margin-left: 70%;
-    margin-bottom: -500px;
-    transform: translate(-50%, -50%);
-    bottom: 257px;
+    position: static;
+    margin-bottom: 50px;
     width: 600px;
     overflow: hidden;
     border: 10px solid #ffffff;
