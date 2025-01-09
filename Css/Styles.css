@@ -461,9 +461,13 @@
   }
 
   @media screen and (max-width: 450px) {
+    .Information-Index{
+      display: inline;
+    }
+
     #Map-Image {
       width: 89% ;
-      margin: auto;
+      margin-bottom: 3%;
       margin-left: 5%;
     }
     table {
@@ -473,9 +477,15 @@
   }
 
   @media screen and (min-width: 450px) and (max-width: 1200px) {
+
+    .Information-Index{
+      display: inline;
+    }
+
     #Map-Image {
       width: 70% ;
       margin-left: 14%;
+      margin-bottom: 2%;
     }
     table {
       width: 71% ;
@@ -483,22 +493,24 @@
     }
   }
 
-  @media screen and (min-width: 1200px) and (max-width: 1300px) {
+  /*@media screen and (min-width: 1200px) and (max-width: 1300px) {
     .Container {
       margin-left: 72%;
     }
     #Map-Image {
       width: 37%;
     }
-  }
+  } */
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 1200px) {
     #Map-Image {
       width: 36.5% ;
+      margin: auto;
     }
     table {
       width: 37% ;
-      margin-left: 0%;
+      margin-left: auto;
+      margin-right: auto;
     }
     body {
       margin-left: 11%;
