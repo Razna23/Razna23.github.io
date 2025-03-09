@@ -421,6 +421,7 @@
   .Container { /* Slideshow */
     position: static;
     margin-bottom: 50px;
+    margin-left: 10%;
     width: 600px;
     overflow: hidden;
     border: 10px solid #ffffff;
