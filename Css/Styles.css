@@ -421,7 +421,6 @@
   .Container { /* Slideshow */
     position: static;
     margin-bottom: 50px;
-    margin-left: 10%;
     width: 600px;
     overflow: hidden;
     border: 10px solid #ffffff;
@@ -497,7 +496,7 @@
 
   @media screen and (min-width: 1200px) {
     .Container {
-      margin-left: 1%;
+      margin-left: 25%;
     }
     #Map-Image {
       width: 36.5% ;
