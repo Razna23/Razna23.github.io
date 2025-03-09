@@ -496,7 +496,7 @@
 
   @media screen and (min-width: 1200px) {
     .Container {
-      margin-left: 25%;
+      margin: 25%;
     }
     #Map-Image {
       width: 36.5% ;
